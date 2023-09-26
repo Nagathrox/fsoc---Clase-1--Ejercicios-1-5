@@ -1,0 +1,86 @@
+#Ejercicio 1:
+
+
+
+nombre = input ( " ingrese su nombre ")
+
+edad = input ( " ingrese su edad " )
+
+print ("Hola", nombre, "tenés", edad, "años." )
+
+
+
+#Ejercicio 2:
+
+
+numero = float ( input ( " Escribe un número " ) )
+
+if numero < 0:
+ 
+print ( " el número”, numero, “ es negativo " )
+
+elif numero > 0 and numero < 0:
+
+ print ( " el número”, numero, “ es neutro " ) 
+
+else:
+
+ print ( " el número”, numero, “ es positivo " )
+
+
+
+#Ejercicio 3:
+
+
+numero = float ( input ( " Escribe un número " ) )
+
+number = float ( input ( " Escribe otro número " ) )
+
+
+if numero > number:
+ 
+    print ( " el número", numero, " es mayor que el número ", number )
+
+elif numero < number:
+
+    print (  " el número", number, " es mayor que el número ", numero  )
+
+elif numero == number:
+
+     print (  " el número", number, " es igual que el número ", numero  )
+
+
+
+
+
+#Ejercicio 4:
+
+nota = int ( input ( "Ingrese la nota de la evaluación: " ) )
+
+if 89 < nota < 101:
+    print ( ' Tu nota es ', nota, ' sacaste una A ' )
+
+elif 79 < nota < 90:
+
+    print (  "Tu nota es ", nota, " sacaste una B " )
+
+elif 69 < nota < 80:
+
+    print ( " Tu nota es ", nota, " sacaste una C " )
+
+elif 59 < nota < 70:
+
+    print ( " Tu nota es ", nota, " sacaste una D " )
+
+elif -1 < nota < 60:
+
+    print ( " Tu nota es ", nota, " sacaste una F " )
+
+
+
+
+#Un array en Python es un tipo de variable especial que puede alojar dentro de sí varios valores al mismo tiempo. Es decir, no es que se alojen los datos en un mismo lugar al mismo tiempo, sino que se tienen una serie de contenedores que conforman el array y en cada uno de esos contenedores se guardan datos distintos. Estos Arrays pueden ser unidimensionales, bidimensionales o multidimensionales, en los que pueden haber una gran cantidad de datos en ellos.
+
+
+#Los ciclos iterativos son una serie de acciones que se  ejecutan repetidamente una cantidad X de veces.
+#Python cuenta con dos tipos de bucles fundamentales: While, los que tienen un número indefinido de iteraciones, For, los que tienen un número definido de iteraciones.
